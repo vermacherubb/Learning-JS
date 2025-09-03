@@ -43,8 +43,46 @@ let list = document.getElementById("list")
 list.removeAttribute("type")
 
 
+let image = document.getElementById("image")
+// image.src = "watch.jpg"
+
+document.getElementById("css").style.backgroundColor = "aqua"
+let css = document.getElementById("css")
+
+css.style.padding = "40px"
+css.style.cssText = "color:red; font-size:30px; font-family:arial; border:2px solid black; margin:20px"
+
+
+// to reate  element or tag
+
+let para = document.createElement("h1")
+para.textContent =  "this text is created withe the hepl of js"
+document.body.append(para)
 
 
 
+let heading = document.createElement("i")
+heading.textContent = "italic"
+document.body.append(heading)
+
+// to create list unorder list
+let ul = document.createElement("ul")
+let li1 = document.createElement("li")
+li1.textContent = "mango"
+ul.append(li1)
+let li2 = document.createElement("li")
+li2.textContent = "banana"
+ul.append(li2)
+let li3 = document.createElement("li")
+li3.textContent = "grapes"  
+ul.append(li3)
+document.body.append(ul)
 
 
+// to create image tag and add image
+
+let imag = document.createElement("img")
+imag.src = "watch.jpg"  
+document.body.append(imag)
+imag.style.width = "200px"
+imag.style.height = "200px"
