@@ -17,13 +17,34 @@ console.log(h);
 
 
 // TO APPLY TAGS WITH TEXT
-hd.innerHTML = "<u> Hello quasim sir </u>"
+hd.innerHTML = "<u> Hello quasim sir </u>"  
 
 
 let head2 = document.getElementById("head2")   
 head2.setAttribute('align','center')
+// attribute name and value
 
 
-document.body.removeAttribute('bgcolour')
+document.body.removeAttribute('bgcolor')
+
+let hi = document.getElementById("hi")
+hi.setAttribute('align','center')
+
+
+
+
+let change =document.getElementById("head")
+change.textContent = "thankyou"
+
+let yo = document.getElementById("head2")
+yo.innerHTML= "<i> hello how are you</i>"
+
+let list = document.getElementById("list")
+list.removeAttribute("type")
+
+
+
+
+
 
 
